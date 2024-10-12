@@ -472,3 +472,255 @@
 .card1:last-child{
     border-bottom: 1px solid rgb(165, 161, 161);
 }
+
+@media (max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .left{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: start;
+        button{
+            display: none;
+        }
+        h3{
+            font-size: 35px;
+        }
+    }
+    .right{
+        width: 70%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .location{
+        width: 65%;
+        height: auto;
+    }
+    
+    .other-section{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+        box-shadow: none;
+    }
+    .price-section{
+        width: 45%;
+        height: auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        row-gap: 20px;
+        button{
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .price{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        p:last-child{
+            display: none;
+        }
+    }
+    .working{
+        width: 45%;
+        height: 100px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        svg{
+            display: none;
+        }
+    }
+    .room-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .room{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        border-top: 1px solid #D7D7D7;
+        svg{
+            display: none;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+
+    .room-btn{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        button{
+            width: 20%;
+        }
+        button:nth-child(2){
+            width: 30%;
+        }
+    }
+
+    .material-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .material{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        svg{
+            display: none;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+    .material-btn{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        button{
+            width: 32%;
+        }
+    }
+    .free{
+        width: 100%;
+        height: 50px;
+    }
+    .include{
+        width: 100%;
+        height: 50px;
+    }
+    .right-section{
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .btn-section{
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        button{
+            min-width: 30%;
+            height: 40px;
+        }
+    }
+    .list-section{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        img{
+            width: 3%;
+        }
+    }
+    .card-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .card1{
+        width: 70%;
+        height: 80vh;
+        padding: 10px;
+        border: 1px solid #7d7978;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        h3{
+            font-size: 30px;
+        }
+        img{
+            width: 80%;
+            height: 60%;
+        }
+        button{
+            width: 35%;
+            height: 45px;
+        }
+    }
+}
